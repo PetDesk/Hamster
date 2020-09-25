@@ -274,8 +274,9 @@
                   </fields>
                   <items>
                       <item link_title="Gallery" path_part="gallery" parent_item="gallery">
-                          <title><![CDATA[]]></title>
-                          <content><![CDATA[]]></content>
+                          <title><![CDATA[Take a tour!]]></title>
+                          <content><![CDATA[<h2>Quae cum essent dicta, discessimus.</h2>
+                          <p>Qui autem esse poteris, nisi te amor ipse ceperit? Ut pulsi recurrant? Nunc omni virtuti vitium contrario nomine opponitur. Sed fortuna fortis; Sed quod proximum fuit non vidit. Nonne odio multos dignos putamus, qui quodam motu aut statu videntur naturae legem et modum contempsisse? Immo videri fortasse. Dicet pro me ipsa virtus nec dubitabit isti vestro beato M.</p>]]></content>
                       </item>
                     </items>
                   </templateset>
@@ -287,8 +288,14 @@
                       <sort name="sort_order" name_friendly="Sort Order" list="1" />
                   </fields>
                   <items>
-                    <title><![CDATA[]]></title>
-                    <sort_order><![CDATA[]]></sort_order>
+                    <item link_title="" path_part="">
+                      <title><![CDATA[Our Office]]></title>
+                      <sort_order><![CDATA[1]]></sort_order>
+                    </item>
+                    <item link_title="" path_part="">
+                      <title><![CDATA[Our Patients]]></title>
+                      <sort_order><![CDATA[2]]></sort_order>
+                    </item>
                   </items>
               </dataset>
               <!-- 2.2 Gallery Dataset: Media -->
@@ -301,11 +308,13 @@
                       <sort name="sort_order" name_friendly="Sort Order" list="1" />
                   </fields>
                   <items>
-                    <image><![CDATA[]]></image>
-                    <alt_text><![CDATA[]]></alt_text>
-                    <external_url_video><![CDATA[]]></external_url_video>
-                    <gallery_collection><![CDATA[]]></gallery_collection>
-                    <sort_order><![CDATA[]]></sort_order>
+                    <item link_title="" path_part="">
+                      <image><![CDATA[]]></image>
+                      <alt_text><![CDATA[]]></alt_text>
+                      <external_url_video><![CDATA[]]></external_url_video>
+                      <gallery_collection><![CDATA[]]></gallery_collection>
+                      <sort_order><![CDATA[]]></sort_order>
+                    </item>
                   </items>
               </dataset>
               <!-- GALLERY END -->
@@ -320,11 +329,20 @@
                 <yes_no name="display_section_links_sidebar" name_friendly="Display Section Links Sidebar? (The Section Links sidebar will display all pages that have the same parent page. )" options="0:No;1:Yes;" />
               </fields>
               <items>
-                <title><![CDATA[]]></title>
+                <title><![CDATA[Generic Page]]></title>
                 <image><![CDATA[]]></image>
-                <image_alt><![CDATA[]]></image_alt>
-                <content><![CDATA[]]></content>
-                <display_section_links_sidebar><![CDATA[]]></display_section_links_sidebar>
+                <image_alt><![CDATA[Cat Photo]]></image_alt>
+                <content><![CDATA[<h1>Nihil opus est exemplis hoc facere longius.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negat enim summo bono afferre incrementum diem. Ea possunt paria non esse. Aufert enim sensus actionemque tollit omnem. Quod idem cum vestri faciant, non satis magnam tribuunt inventoribus gratiam. Duo Reges: constructio interrete. <a href="http://loripsum.net/" target="_blank" rel="noopener">Mihi enim erit isdem istis fortasse iam utendum.</a> Quare ad ea primum, si videtur; Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ac tamen hic mallet non dolere.</p>
+                <ul>
+                <li>Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret.</li>
+                <li>Primum cur ista res digna odio est, nisi quod est turpis?</li>
+                <li>An me, inquam, nisi te audire vellem, censes haec dicturum fuisse?</li>
+                </ul>
+                <p>Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Quodsi ipsam honestatem undique pertectam atque absolutam. Collatio igitur ista te nihil iuvat. Illi enim inter se dissentiunt. Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers? Quod dicit Epicurus etiam de voluptate, quae minime sint voluptates, eas obscurari saepe et obrui. <a href="http://loripsum.net/" target="_blank" rel="noopener">Recte, inquit, intellegis.</a> Sed ad bona praeterita redeamus.</p>
+                <p>Si longus, levis dictata sunt. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Sed quia studebat laudi et dignitati, multum in virtute processerat. Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem illum anteponebas? Naturales divitias dixit parabiles esse, quod parvo esset natura contenta. Negat enim summo bono afferre incrementum diem. Conferam tecum, quam cuique verso rem subicias;</p>
+                <blockquote cite="http://loripsum.net">Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit.</blockquote>]]></content>
+                <display_section_links_sidebar><![CDATA[1]]></display_section_links_sidebar>
             </items>
           </templateset>
           <!-- GENERIC PAGE END  -->
@@ -341,12 +359,12 @@
                 </fields>
                 <items>
                     <item link_title="Resources" path_part="resources" parent_item="resources">
-                        <title><![CDATA[]]></title>
-                        <image><![CDATA[]]></image>
-                        <image_alt><![CDATA[]]></image_alt>
-                        <display_pet_desk_banner><![CDATA[0]]></display_pet_desk_banner>
-                        <content><![CDATA[]]></content>
-                        <display_patient_forms><![CDATA[0]]></display_patient_forms>
+                        <title><![CDATA[Resources]]></title>
+                        <image><![CDATA[https://nq4q3441.media.zestyio.com/pexels-pixabay-160846.f1cb27a519bdb5b6ed34049a5b86e317.jpg]]></image>
+                        <image_alt><![CDATA[dog]]></image_alt>
+                        <display_pet_desk_banner><![CDATA[1]]></display_pet_desk_banner>
+                        <content><![CDATA[<p>Donec vel aliquam turpis. Nam auctor tristique tempus. Pellentesque auctor quam quis odio interdum interdum. Sed vulputate hendrerit dui, vitae faucibus purus mattis eget. Nullam id varius massa. Proin malesuada semper pretium. Quisque mi lectus, volutpat at libero sed, sagittis dignissim augue. Aenean a tincidunt erat. Mauris maximus bibendum rhoncus. Donec sit amet venenatis massa. Donec diam mi, fringilla id dui in, laoreet consectetur justo. Nam elit ante, convallis quis enim sed, tincidunt blandit ipsum.</p>]]></content>
+                        <display_patient_forms><![CDATA[1]]></display_patient_forms>
                     </item>
                   </items>
                 </templateset>
@@ -359,10 +377,23 @@
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
                 </fields>
                 <items>
-                  <title><![CDATA[]]></title>
-                  <description><![CDATA[]]></description>
-                  <pdf><![CDATA[]]></pdf>
-                  <sort_order><![CDATA[]]></sort_order>
+                  <title><![CDATA[Form 1]]></title>
+                  <description><![CDATA[Quisque sit amet auctor lectus, eu vestibulum odio. Cras id purus neque. Vivamus ut tempus elit. Sed finibus, urna eget elementum euismod, urna velit pretium neque, cursus posuere nisl orci sit amet nisi. Nunc non massa sit amet turpis placerat dignissim. Sed vulputate condimentum augue, quis viverra urna elementum nec. Proin tellus felis, varius nec rhoncus non, molestie at ante.]]></description>
+                  <pdf><![CDATA[https://nq4q3441.media.zestyio.com/dummy.pdf]]></pdf>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </items>
+                <items>
+                  <title><![CDATA[Form 2]]></title>
+                  <description><![CDATA[Ut blandit molestie sem, vitae iaculis purus.
+Praesent lobortis in ante nec tristique. In ut ultricies nunc, quis vestibulum augue. Pellentesque porttitor sem sit amet nunc blandit malesuada]]></description>
+                  <pdf><![CDATA[https://nq4q3441.media.zestyio.com/dummy.pdf]]></pdf>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </items>
+                <items>
+                  <title><![CDATA[Form 3]]></title>
+                  <description><![CDATA[Duis vitae rhoncus diam, ut dapibus risus. Nulla non dolor vulputate, aliquet nisi dignissim, pharetra nulla. Morbi mi felis, iaculis non venenatis ac, venenatis nec ante. Ut justo augue, sollicitudin vitae luctus vitae, ornare quis elit. Nullam vulputate mattis ultrices. Nullam eu condimentum dolor. Pellentesque sit amet molestie elit. Nullam vitae risus velit.]]></description>
+                  <pdf><![CDATA[https://nq4q3441.media.zestyio.com/dummy.pdf]]></pdf>
+                  <sort_order><![CDATA[3]]></sort_order>
                 </items>
             </dataset>
             <!-- RESOURCES END -->
@@ -378,11 +409,11 @@
                 </fields>
                 <items>
                     <item link_title="Contact" path_part="contact">
-                      <title><![CDATA[]]></title>
-                      <content><![CDATA[]]></content>
+                      <title><![CDATA[Contact Us]]></title>
+                      <content><![CDATA[<p>Cras id purus neque. Vivamus ut tempus elit. Sed finibus, urna eget elementum euismod, urna velit pretium neque, cursus posuere nisl orci sit amet nisi. Nunc non massa sit amet turpis placerat dignissim. Sed vulputate condimentum augue, quis viverra urna elementum nec. Proin tellus felis, varius nec rhoncus non, molestie at ante.</p>]]></content>
                       <display_contact_form><![CDATA[1]]></display_contact_form>
                       <hours><![CDATA[]]></hours>
-                      <google_maps_embed><![CDATA[]]></google_maps_embed>
+                      <google_maps_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.4688209591864!2d-117.16624884934943!3d32.726739793761325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954b050fd5819%3A0x31ff21fcf6177191!2sPetDesk!5e0!3m2!1sen!2ses!4v1597243585586!5m2!1sen!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>]]></google_maps_embed>
                     </item>
                 </items>
             </templateset>
