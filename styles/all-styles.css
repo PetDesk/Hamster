@@ -9090,7 +9090,7 @@ a.pswp__share--download:hover {
     visibility: hidden
 }
 
-.pswp__preloader {
+/*.pswp__preloader {
     width: 44px;
     height: 44px;
     position: absolute;
@@ -9174,7 +9174,7 @@ a.pswp__share--download:hover {
         margin: 0;
         float: right
     }
-}
+}*/
 
 @-webkit-keyframes clockwise {
     0% {
@@ -12058,7 +12058,7 @@ a:hover {
     background: #17a2b8;
     color: #fff
 }
-
+/*
 #preloader {
     position: fixed;
     top: 0;
@@ -12082,7 +12082,7 @@ a:hover {
     height: 60px;
     -webkit-animation: animate-preloader 1s linear infinite;
     animation: animate-preloader 1s linear infinite
-}
+}*/
 
 @-webkit-keyframes animate-preloader {
     0% {
