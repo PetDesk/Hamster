@@ -20,21 +20,24 @@
         </head>
         <!-- CLIPPINGS -->
         <clippings>
-            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[]]></text>
+            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[PetDesk Hamster]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="petdesk_id" name_friendly="PetDesk ID"><![CDATA[]]></text>
-            <text name="footer_text" name_friendly="Footer Text"><![CDATA[]]></text>
-            <text name="contact_email" name_friendly="Contact Email"><![CDATA[]]></text>
-            <text name="contact_phone" name_friendly="Contact Phone"><![CDATA[]]></text>
-            <textarea name="hours" name_friendly="Hours" list="1" />
-            <textarea name="address" name_friendly="Address" list="1" />
-            <link name="appointments_link" name_friendly="Appointments Link" />
-            <link name="facebook" name_friendly="Facebook (If no Facebook, just add a space.)" />
-            <link name="facebook" name_friendly="Facebook (If no Facebook, just add a space.)" />
-            <link name="twitter" name_friendly="Twitter (If no Twitter, just add a space.)" />
-            <link name="instagram" name_friendly="Instagram (If no Instagram, just add a space.)" />
-            <images name="petdesk_banner" name_friendly="PetDesk Banner" limit="1" />
-            <text name="image_alt" name_friendly="Image Alt"><![CDATA[]]></text>
+            <text name="footer_text" name_friendly="Footer Text"><![CDATA[A BluePrint by Zesty.oi]]></text>
+            <text name="contact_email" name_friendly="Contact Email"><![CDATA[contact@example.com ]]></text>
+            <text name="contact_phone" name_friendly="Contact Phone"><![CDATA[(558)955-4885]]></text>
+            <textarea name="hours" name_friendly="Hours" list="1"><![CDATA[M-F 9-5
+Sat 9-2]]></textarea>
+            <textarea name="address" name_friendly="Address" list="1" ><![CDATA[2044 1st Ave
+Suite 300
+San Diego, CA 92101]]></textarea>
+            <link name="appointments_link" name_friendly="Appointments Link"><![CDATA[https://petdesk.com/]]></link>
+            <link name="facebook" name_friendly="Facebook (If no Facebook, just add a space.)"><![CDATA[https://facebook.com]]></link>
+            <link name="facebook" name_friendly="Facebook (If no Facebook, just add a space.)"><![CDATA[]]></link>
+            <link name="twitter" name_friendly="Twitter (If no Twitter, just add a space.)"><![CDATA[]]></link>
+            <link name="instagram" name_friendly="Instagram (If no Instagram, just add a space.)"><![CDATA[https://instagram.com]]></link>
+            <images name="petdesk_banner" name_friendly="PetDesk Banner" limit="1"><![CDATA[]]></images>
+            <text name="image_alt" name_friendly="Image Alt"><![CDATA[PetDesk.com Image]]></text>
         </clippings>
         <ingredients>
 
