@@ -20,7 +20,7 @@
         </head>
         <!-- CLIPPINGS -->
         <clippings>
-            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[PetDesk Hamster2]]></text>
+            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[PetDesk Hamster]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1"><![CDATA[]]></images>
             <text name="petdesk_id" name_friendly="PetDesk ID"><![CDATA[]]></text>
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[A BluePrint by Zesty.oi]]></text>
