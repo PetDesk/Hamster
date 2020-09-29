@@ -10,7 +10,7 @@
 
 --------------------------------------------------------------*/
 .btn{
-	border-radius: $btn-border-radius;
+	border-radius: $btn-border-radius-base;
 	padding: .475rem 1.5rem;
 }
 a{
@@ -2744,13 +2744,13 @@ tr td:nth-child(3),tr th:nth-child(3) { /* I don't think they are 0 based */
     padding: 15px 10px;
     border-bottom: 1px solid lightgray;
     &:hover{
-      background: $subnav-link-hover-color;
+      background: theme-color($sidebar-link-hover-color);
        a {
-        color: $sidebar_hover_font_color;
+        color: $sidebar-link-hover-color;
   }
     }
       a {
-        color: $sidebar-font-color;
+        color: $sidebar-text-color;
   }
   }
 }
